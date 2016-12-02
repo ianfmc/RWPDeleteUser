@@ -1,0 +1,35 @@
+{
+  "name": "rwpdeleteuser",
+  "version": "1.0.0",
+  "description": "Delete Team from AWS DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./spec/delete.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianfmc/RWPDeleteUser.git"
+  },
+  "keywords": [
+    "AWS",
+    "Lambda",
+    "DynamoDB",
+    "Delete",
+    "Team"
+  ],
+  "author": "Ian F. McCallum",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ianfmc/RWPDeleteUser/issues"
+  },
+  "homepage": "https://github.com/ianfmc/RWPDeleteUser#readme",
+  "devDependencies": {
+    "aws-sdk": "^2.6.12",
+    "chai": "^3.5.0",
+    "mocha": "^3.1.2",
+    "sinon": "^1.17.6"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.6.11"
+  }
+}
